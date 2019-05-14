@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProyectoFinal3": {
+    "Proyecto": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ProyectoFinal3",
+            "outputPath": "dist/Proyecto",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ProyectoFinal3:build"
+            "browserTarget": "Proyecto:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ProyectoFinal3:build:production"
+              "browserTarget": "Proyecto:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ProyectoFinal3:build"
+            "browserTarget": "Proyecto:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "ProyectoFinal3-e2e": {
+    "Proyecto-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ProyectoFinal3:serve"
+            "devServerTarget": "Proyecto:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ProyectoFinal3:serve:production"
+              "devServerTarget": "Proyecto:serve:production"
             }
           }
         },
@@ -136,5 +136,5 @@
       }
     }
   },
-  "defaultProject": "ProyectoFinal3"
+  "defaultProject": "Proyecto"
 }
